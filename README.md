@@ -62,7 +62,7 @@ Now, we prepare the app for [going to production](https://docs.locize.com/guides
 
 ## What to do to reach this step:
 1. in locize: create a dedicated version for production
-2. in locize: Do not enable auto publish for that version and publish manually or via [API]​(https://docs.locize.com/integration/api#publish-version) or via [CLI](https://github.com/locize/locize-cli#publish-version)
+2. in locize: Do not enable auto publish for that version and publish manually or via [API](https://docs.locize.com/integration/api#publish-version) or via [CLI](https://github.com/locize/locize-cli#publish-version)
 3. in locize: [enable Cache-Control max-age​](https://docs.locize.com/more/caching)
 4. adapt the [i18next config](https://github.com/locize/react-tutorial/tree/main/step_4/src/i18n.js) to read from environment specific [settings](https://github.com/locize/react-tutorial/tree/main/step_4/.env) ([development](https://github.com/locize/react-tutorial/tree/main/step_4/.env.production) vs. [production](https://github.com/locize/react-tutorial/tree/main/step_4/.env.development))
 
