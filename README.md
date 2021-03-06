@@ -1,5 +1,5 @@
 # [Step 0](https://github.com/locize/react-tutorial/tree/main/step_0) - Starting point
-![](https://github.com/locize/react-tutorial/tree/main/img/step_0.jpg)
+![](https://github.com/locize/react-tutorial/raw/main/img/step_0.jpg)
 Let's start with a simple react app bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and instrumented with a simple [i18next](https://www.i18next.com/) setup thanks to [react-i18next](https://react.i18next.com/).
 
 The translation files are hosted on the same server where the react app is hosted.
@@ -8,7 +8,7 @@ Use `npm run start` to run the app.
 
 
 # [Step 1](https://github.com/locize/react-tutorial/tree/main/step_1) - keep existing code setup, but synchronize with locize
-![](https://github.com/locize/react-tutorial/tree/main/img/step_1.jpg)
+![](https://github.com/locize/react-tutorial/raw/main/img/step_1.jpg)
 Here, you basically keep the existing setup, like in [Step 0](https://github.com/locize/react-tutorial/tree/main/step_0) but are synchronizing the translation files with locize.
 This can be done on-demand or on the CI-Server or before deploying the app.
 
@@ -25,7 +25,7 @@ Alternatively, you can also use the `npm run downloadLocales` script to always d
 
 
 # [Step 2](https://github.com/locize/react-tutorial/tree/main/step_2) - use the [locize CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network)
-![](https://github.com/locize/react-tutorial/tree/main/img/step_2.jpg)
+![](https://github.com/locize/react-tutorial/raw/main/img/step_2.jpg)
 Here, the [locize-cli](https://github.com/locize/locize-cli) is not used anymore.
 The app will be directly "connected" with locize.
 
@@ -43,7 +43,7 @@ Thanks to the use of the [saveMissing functionality](https://github.com/locize/r
 
 
 # [Step 3](https://github.com/locize/react-tutorial/tree/main/step_3) - more locize goodies
-![](https://github.com/locize/react-tutorial/tree/main/img/step_3.jpg)
+![](https://github.com/locize/react-tutorial/raw/main/img/step_3.jpg)
 Here, you will add some extra locize goodies to further optimize the localization workflow.
 
 ## What to do to reach this step:
@@ -57,7 +57,7 @@ With the help of the [locize](https://github.com/locize/locize) plugin, you'll b
 
 
 # [Step 4](https://github.com/locize/react-tutorial/tree/main/step_4) - production version with caching
-![](https://github.com/locize/react-tutorial/tree/main/img/step_4.jpg)
+![](https://github.com/locize/react-tutorial/raw/main/img/step_4.jpg)
 Now, we prepare the app for [going to production](https://docs.locize.com/guides-tips-and-tricks/going-production). There is to do just a little [i18next config](https://github.com/locize/react-tutorial/tree/main/step_4/src/i18n.js) change.
 
 ## What to do to reach this step:
