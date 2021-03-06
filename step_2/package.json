@@ -1,0 +1,31 @@
+{
+  "name": "step_2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "i18next": "19.9.1",
+    "i18next-browser-languagedetector": "6.0.1",
+    "i18next-locize-backend": "4.1.9",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-i18next": "11.8.8",
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

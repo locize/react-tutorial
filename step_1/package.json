@@ -1,0 +1,36 @@
+{
+  "name": "step_1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "i18next": "19.9.1",
+    "i18next-browser-languagedetector": "6.0.1",
+    "i18next-http-backend": "1.1.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-i18next": "11.8.8",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "locize-cli": "7.6.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "downloadLocales": "locize download --project-id=ce0cf818-32e5-44a5-b7f0-4ea9e840d962 --ver=latest --clean=true --path=./public/locales",
+    "syncLocales": "locize sync --project-id=ce0cf818-32e5-44a5-b7f0-4ea9e840d962 --ver=latest --api-key=5c2bbc21-027d-4f41-995a-e8beb451cdef --path=./public/locales --dry=true"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
