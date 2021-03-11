@@ -51,6 +51,7 @@ function Page() {
         <MyComponent />
       </div>
       <div>{t('description.part2')}</div>
+      {/* <div>{t('new.key', 'this will be added automatically')}</div> */}
     </div>
   );
 }

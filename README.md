@@ -50,10 +50,13 @@ Here, you will add some extra locize goodies to further optimize the localizatio
 1. install the [locize-lastused](https://github.com/locize/locize-lastused) plugin
 2. install the [locize](https://github.com/locize/locize) plugin
 3. adapt the [i18next config](https://github.com/locize/react-tutorial/tree/main/step_3/src/i18n.js)
+4. in locize: enable the [auto-machinetranslation workflow](https://docs.locize.com/whats-inside/auto-machine-translation)
 
 Thanks to the [locize-lastused](https://github.com/locize/locize-lastused) plugin, you'll be able to [find and filter in locize which keys are used or not used anymore](https://docs.locize.com/guides-tips-and-tricks/unused-translations).
 
 With the help of the [locize](https://github.com/locize/locize) plugin, you'll be able to use your app within the locize [InContext Editor](https://docs.locize.com/more/incontext-editor).
+
+Lastly, with the help of the [auto-machinetranslation workflow](https://docs.locize.com/whats-inside/auto-machine-translation) and the use of the [saveMissing functionality](https://github.com/locize/react-tutorial/tree/main/step_3/src/App.js#L54), new keys not only gets added to locize automatically, while developing the app, but are also automatically translated into the target languages using machine translation.
 
 
 # [Step 4](https://github.com/locize/react-tutorial/tree/main/step_4) - production version with caching
