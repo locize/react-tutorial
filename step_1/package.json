@@ -12,7 +12,7 @@
     "react-scripts": "4.0.3"
   },
   "devDependencies": {
-    "locize-cli": "7.6.13"
+    "locize-cli": "7.6.17"
   },
   "scripts": {
     "start": "react-scripts start",
