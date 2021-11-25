@@ -9,7 +9,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 const locizeOptions = {
   projectId: process.env.REACT_APP_LOCIZE_PROJECTID,
-  apiKey: process.env.REACT_APP_LOCIZE_APIKEY, // YOU should not expose your apps API key to production!!!
+  apiKey: process.env.REACT_APP_LOCIZE_APIKEY, // The API key should only be used in development, not in production. You should not =expose your apps API key to production!!!
   referenceLng: process.env.REACT_APP_LOCIZE_REFLNG,
   version: process.env.REACT_APP_LOCIZE_VERSION
 };
