@@ -3,21 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "i18next": "20.0.0",
-    "i18next-browser-languagedetector": "6.0.1",
-    "i18next-locize-backend": "4.1.9",
-    "locize": "2.2.4",
-    "locize-lastused": "3.0.11",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-i18next": "11.8.8",
-    "react-scripts": "4.0.3"
+    "i18next": "22.0.2",
+    "i18next-browser-languagedetector": "6.1.8",
+    "i18next-locize-backend": "5.1.4",
+    "locize": "2.4.5",
+    "locize-lastused": "3.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "12.0.0",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "serve": "http-server -s -p 5000 build"
+    "serve": "http-server -p 5555 build"
   },
   "browserslist": {
     "production": [
@@ -32,6 +32,6 @@
     ]
   },
   "devDependencies": {
-    "http-server": "0.12.3"
+    "http-server": "14.1.1"
   }
 }
