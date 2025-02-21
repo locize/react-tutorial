@@ -13,9 +13,9 @@ Here, you basically keep the existing setup, like in [Step 0](https://github.com
 This can be done on-demand or on the CI-Server or before deploying the app.
 
 ## What to do to reach this step:
-1. in locize: signup at https://locize.com/register and [login](https://docs.locize.com/integration/getting-started/create-a-user-account)
-2. in locize: [create a new project](https://docs.locize.com/integration/getting-started/add-a-new-project)
-3. in locize: add "de" as additional language (this can also be done via [API](https://docs.locize.com/integration/api#add-new-language))
+1. in locize: signup at https://locize.app/register and [login](https://www.locize.com/docs/create-a-user-account)
+2. in locize: [create a new project](https://www.locize.com/docs/add-a-new-project)
+3. in locize: add "de" as additional language (this can also be done via [API](https://www.locize.com/docs/api#add-new-language))
 4. install the [locize-cli](https://github.com/locize/locize-cli)
 
 ## use the [locize-cli](https://github.com/locize/locize-cli)
@@ -24,12 +24,12 @@ Use the `npm run syncLocales` script to synchronize your [local repository](http
 Alternatively, you can also use the `npm run downloadLocales` script to always download the published locize translations to your [local repository](https://github.com/locize/react-tutorial/tree/main/step_1/public/locales) before bundling your app.
 
 
-# [Step 2](https://github.com/locize/react-tutorial/tree/main/step_2) - use the [locize CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network)
+# [Step 2](https://github.com/locize/react-tutorial/tree/main/step_2) - use the [locize CDN](https://www.locize.com/docs/cdn-content-delivery-network)
 ![](https://github.com/locize/react-tutorial/raw/main/img/step_2.jpg)
 Here, the [locize-cli](https://github.com/locize/locize-cli) is not used anymore.
 The app will be directly "connected" with locize.
 
-The translations are dynamically fetched from the [locize CDN](https://docs.locize.com/whats-inside/cdn-content-delivery-network).
+The translations are dynamically fetched from the [locize CDN](https://www.locize.com/docs/cdn-content-delivery-network).
 
 This means you can change the translations without the need to adapt and deploy your app.
 
@@ -50,23 +50,23 @@ Here, you will add some extra locize goodies to further optimize the localizatio
 1. install the [locize-lastused](https://github.com/locize/locize-lastused) plugin
 2. install the [locize](https://github.com/locize/locize) plugin
 3. adapt the [i18next config](https://github.com/locize/react-tutorial/tree/main/step_3/src/i18n.js)
-4. in locize: enable the [auto-machinetranslation workflow](https://docs.locize.com/whats-inside/auto-machine-translation)
+4. in locize: enable the [auto-machinetranslation workflow](https://www.locize.com/docs/automatic-translation)
 
-Thanks to the [locize-lastused](https://github.com/locize/locize-lastused) plugin, you'll be able to [find and filter in locize which keys are used or not used anymore](https://docs.locize.com/guides-tips-and-tricks/unused-translations).
+Thanks to the [locize-lastused](https://github.com/locize/locize-lastused) plugin, you'll be able to [find and filter in locize which keys are used or not used anymore](https://www.locize.com/docs/find-unused-translations).
 
-With the help of the [locize](https://github.com/locize/locize) plugin, you'll be able to use your app within the locize [InContext Editor](https://docs.locize.com/more/incontext-editor).
+With the help of the [locize](https://github.com/locize/locize) plugin, you'll be able to use your app within the locize [InContext Editor](https://www.locize.com/docs/incontext-editor).
 
-Lastly, with the help of the [auto-machinetranslation workflow](https://docs.locize.com/whats-inside/auto-machine-translation) and the use of the [saveMissing functionality](https://github.com/locize/react-tutorial/tree/main/step_3/src/App.js#L54), new keys not only gets added to locize automatically, while developing the app, but are also automatically translated into the target languages using machine translation.
+Lastly, with the help of the [auto-machinetranslation workflow](https://www.locize.com/docs/automatic-translation) and the use of the [saveMissing functionality](https://github.com/locize/react-tutorial/tree/main/step_3/src/App.js#L54), new keys not only gets added to locize automatically, while developing the app, but are also automatically translated into the target languages using machine translation.
 
 
 # [Step 4](https://github.com/locize/react-tutorial/tree/main/step_4) - production version with caching
 ![](https://github.com/locize/react-tutorial/raw/main/img/step_4.jpg)
-Now, we prepare the app for [going to production](https://docs.locize.com/guides-tips-and-tricks/going-production). There is to do just a little [i18next config](https://github.com/locize/react-tutorial/tree/main/step_4/src/i18n.js) change.
+Now, we prepare the app for [going to production](https://www.locize.com/docs/going-to-production). There is to do just a little [i18next config](https://github.com/locize/react-tutorial/tree/main/step_4/src/i18n.js) change.
 
 ## What to do to reach this step:
 1. in locize: create a dedicated version for production
-2. in locize: Do not enable auto publish for that version and publish manually or via [API](https://docs.locize.com/integration/api#publish-version) or via [CLI](https://github.com/locize/locize-cli#publish-version)
-3. in locize: [enable Cache-Control max-age​](https://docs.locize.com/more/caching)
+2. in locize: Do not enable auto publish for that version and publish manually or via [API](https://www.locize.com/docs/api#publish-version) or via [CLI](https://github.com/locize/locize-cli#publish-version)
+3. in locize: [enable Cache-Control max-age​](https://www.locize.com/docs/caching)
 4. adapt the [i18next config](https://github.com/locize/react-tutorial/tree/main/step_4/src/i18n.js) to read from environment specific [settings](https://github.com/locize/react-tutorial/tree/main/step_4/.env) ([development](https://github.com/locize/react-tutorial/tree/main/step_4/.env.production) vs. [production](https://github.com/locize/react-tutorial/tree/main/step_4/.env.development))
 
 Now, during development, you'll continue to [save missing keys](https://github.com/locize/react-tutorial/tree/main/step_4/src/i18n.js#L43) and to make use of [lastused feature](https://github.com/locize/react-tutorial/tree/main/step_4/src/i18n.js#L22). => `npm run start`
